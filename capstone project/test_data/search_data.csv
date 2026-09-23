@@ -1,0 +1,6 @@
+search_term,expected_status,expected_product_or_message
+MacBook,found,MacBook
+iPhone,found,iPhone
+Samsung SyncMaster,found,Samsung SyncMaster 941BW
+Samsung Galaxy,found,Samsung Galaxy Tab 10.1
+NonExistentItem9999,not_found,There is no product that matches the search criteria.

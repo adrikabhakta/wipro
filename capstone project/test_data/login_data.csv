@@ -1,0 +1,5 @@
+test_case_id,email,password,expected_outcome,expected_message
+TC_LOGIN_VALID,selenium_capstone_user@testautomation.com,Password123!,success,My Account
+TC_LOGIN_INVALID_PWD,selenium_capstone_user@testautomation.com,WrongPass999!,failure,Warning: No match for E-Mail Address and/or Password.
+TC_LOGIN_INVALID_USER,nonexistent_capstone_user_99@test.com,Password123!,failure,Warning: No match for E-Mail Address and/or Password.
+TC_LOGIN_EMPTY_FIELDS,,,failure,Warning: No match for E-Mail Address and/or Password.
