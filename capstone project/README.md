@@ -37,6 +37,14 @@ selenium_python_framework/
 │       ├── base_test_case.py       # Base unittest class with failure screenshot capture
 │       ├── test_login_unittest.py  # Unittest login test suite
 │       └── test_search_unittest.py # Unittest product search test suite
+├── outcome_screenshots/           # Visual execution proof & HTML report screenshots
+│   ├── README.md                   # Visual gallery and step documentation
+│   ├── 01_pytest_html_report_overview.png
+│   ├── 02_e2e_login_page.png
+│   ├── 03_e2e_account_dashboard_verified.png
+│   ├── 04_e2e_search_macbook_verified.png
+│   ├── 05_e2e_account_logout_verified.png
+│   └── 06_search_no_product_found_verified.png
 ├── reports/
 │   ├── report.html                 # Self-contained HTML execution report
 │   ├── screenshots/                # Timestamped failure screenshots (.png)
